@@ -9,7 +9,7 @@ function calculateAverage(numbers) {
     }
     return sum / numbers.length; 
 }
-debugger
+
 const numbers = [10, 20, 30, 40, 50];
 const avg = calculateAverage(numbers);
 console.log(`The average is: ${avg}`);
