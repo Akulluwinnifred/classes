@@ -22,7 +22,7 @@
 
 #abstraction refers to ability to ignore other details and concentrate on the highest level of concentration
 #it helps in simplifying complex systems by breaking them down into smaller manageable parts or components
-#class name but me singular e.g car not cars
+#class name must me singular e.g car not cars
 
 #Inheritance :here we have the concept of a parent and child
 #parent class: provides common properties/methods which can be used by its child classes
@@ -33,6 +33,16 @@
 #polymorphism refers to the ability to take on different attributes of a class
 
 #encapsulation is the ability to have what to share and what not to share
+
+
+
+
+
+
+
+
+
+
 
 #write two dynamic functions that prompts a user to input name,age,email,gender and prints them out
 # prompt to insert PAYE,NSSF and calculate net pay of an individual 
@@ -50,17 +60,17 @@ get_details("name","age","email","gender")
     
 
    
-def employees(PPAYE, NSSF, salary):
-    pAYE = (PPAYE/100) * salary
-    nSSF1 = (NSSF/100) * salary
-    netPay = salary - (pAYE + nSSF1)
+def employees(ppaye, nssf, salary):
+    paye = (ppaye/100) * salary
+    nSSF1 = (nssf/100) * salary
+    netPay = salary - (paye + nSSF1)
     print(netPay)
 
-PPAYE = int(input('Please enter the PAYE percentage: '))
-NSSF = int(input('Please enter the NSSF percentage: '))
+ppaye = int(input('Please enter the PAYE percentage: '))
+nssf = int(input('Please enter the NSSF percentage: '))
 salary = 80000000
 
-employees(PPAYE, NSSF, salary)
+employees(ppaye, nssf, salary)
 
 
 
