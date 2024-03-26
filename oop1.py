@@ -10,7 +10,7 @@ class Animal:
 
 #A method is the function of a class and statement within that method is called a behaviour.
 
-    def feed(self): #this is a methodof animal class feed
+    def feed(self): #this is a method of animal class feed
         
         return "by chewing"
 
