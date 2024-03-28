@@ -24,3 +24,7 @@ class River:
             self.length= c
 #any method of a class must have a parameter "self"
 river1 = River("R.Nile", "Central", "600km")
+
+#creating an object of a class is called instanciating
+#the shish function is called a constructor and is used to initialize an instanciated object
+#it is used to give value to an instanciated object
